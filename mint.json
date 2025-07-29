@@ -33,19 +33,14 @@
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "name": "Website",
+      "icon": "globe",
+      "url": "https://www.displace.agency"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "name": "Contact",
+      "icon": "envelope",
+      "url": "mailto:hello@displace.agency"
     }
   ],
   "navigation": [
@@ -58,7 +53,7 @@
     {
       "group": "Get Started",
       "pages": [
-        "introduction",
+        "index",
         "quickstart",
         "development"
       ]
@@ -73,11 +68,18 @@
         "essentials/navigation",
         "essentials/reusable-snippets"
       ]
+    },
+    {
+      "group": "AI Tools",
+      "pages": [
+        "ai-tools/cursor",
+        "ai-tools/claude-code",
+        "ai-tools/windsurf"
+      ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "github": "https://github.com/displace-agency",
+    "linkedin": "https://www.linkedin.com/company/displace-agency"
   }
 }
